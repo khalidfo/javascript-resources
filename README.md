@@ -1,1 +1,1 @@
-# javascript-resources-
+# javascript-resources
