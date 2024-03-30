@@ -17,7 +17,7 @@ With var declarations, only the declaration is hoisted, not the initialization. 
 ```javascript
 console.log(y);  // Output: Uncaught ReferenceError: x is not defined
 ```
-![alt text](/logy.png)
+![alt text](img/logy.png)
 
 ```javascript
 console.log(p); // Output: undefined
