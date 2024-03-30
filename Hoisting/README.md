@@ -53,4 +53,5 @@ Understanding hoisting is crucial for writing predictable JavaScript code. It ca
 ## 💡 Here are some tips
 
 🔢 Use let and const by default for variable declarations to avoid hoisting surprises.
+
 📝 Be mindful of variable initialization with var if you need to use it.
