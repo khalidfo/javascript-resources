@@ -1,19 +1,20 @@
 # JavaScript Hoisting
 
-## 📖 The dictionary meaning of Hoisting:
+## 📖 The dictionary meaning of Hoisting
+
 Raise (something) by means of ropes and pulleys.
 
-##📚 JavaScript definition:
+##📚 JavaScript definition
 
 Hoisting is a behavior where variable and function declarations are moved to the top of their containing scope during the compilation phase, before the code is executed.
 
 Breakdown of how hoisting works for functions and variables:
 
-## ⚙️ Functions: 
+## ⚙️ Functions 
 
 Declared functions are entirely hoisted. You can call a function even before it's written in the code.
 
-## 📝 Variables:
+## 📝 Variables
 
 With var declarations, only the declaration is hoisted, not the initialization. This means the variable exists before its assigned value, resulting in a value of undefined if used before initialization.
 
@@ -47,7 +48,9 @@ const z = 3;
 
 ## ⭐️ Why is hoisting important?
 
-Understanding hoisting is crucial for writing predictable JavaScript code. It can lead to unexpected behavior if not considered carefully. Here are some tips:
+Understanding hoisting is crucial for writing predictable JavaScript code. It can lead to unexpected behavior if not considered carefully. 
 
-Use let and const by default for variable declarations to avoid hoisting surprises.
-Be mindful of variable initialization with var if you need to use it.
+## 💡 Here are some tips
+
+🔢 Use let and const by default for variable declarations to avoid hoisting surprises.
+📝 Be mindful of variable initialization with var if you need to use it.
