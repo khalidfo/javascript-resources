@@ -17,13 +17,14 @@ With var declarations, only the declaration is hoisted, not the initialization. 
 ```javascript
 console.log(y);  // Output: Uncaught ReferenceError: x is not defined
 ```
-![alt text](img/logy.png)
+![Uncaught ReferenceError: x is not defined](img/without-var.png)
 
 ```javascript
 console.log(p); // Output: undefined
 var p = 5;
 console.log(p); // Output: 5
 ```
+![with var](img/var.png)
 
 🔢 Let and Const:
 Introduced in ES6 (ECMAScript 2015), let and const declarations are not hoisted. They are processed at runtime within their block scope, preventing accidental access before initialization.
@@ -32,11 +33,14 @@ Introduced in ES6 (ECMAScript 2015), let and const declarations are not hoisted.
 console.log(x); // Output: Uncaught ReferenceError: x is not defined
 let x = 5;
 ```
+![with let](img/let.png)
 
 ```javascript
 console.log(z); // Output: Uncaught ReferenceError: x is not defined 
 const z = 3;
 ```
+![with const](img/const.png)
+
 ⭐️ Why is hoisting important?
 Understanding hoisting is crucial for writing predictable JavaScript code. It can lead to unexpected behavior if not considered carefully. Here are some tips:
 
